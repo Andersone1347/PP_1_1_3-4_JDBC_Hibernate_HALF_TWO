@@ -19,10 +19,8 @@ public class Util {
             DriverManager.registerDriver(driver);
             connection = DriverManager.getConnection(DB_URL,
                     DB_USER,DB_PASSWORD);
-            System.out.println("conection OK");
         } catch (SQLException e) {
             e.printStackTrace();
-            System.out.println("conection Error");
         }
         return connection;
 

@@ -18,7 +18,7 @@ public class Main {
         uS.saveUser("The Miz","Awesome",(byte) 13);        // Добавление User в таблицу
         uS.saveUser("The Face","not Awesome",(byte) 47);
         uS.saveUser("Andrey","Panov",(byte) 29);
-        uS.saveUser("NeNastya","Fergusson",(byte) 24);
+        uS.saveUser("NeNastya","Wilson",(byte) 24);
 
 
         uS.getAllUsers();                        // Получение всех User(ов) из таблицы
